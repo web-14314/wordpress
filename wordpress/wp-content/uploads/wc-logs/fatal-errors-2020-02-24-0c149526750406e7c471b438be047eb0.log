@@ -1,0 +1,57 @@
+2020-02-24T01:28:49+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(82): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action), Object(ActionScheduler_DateTime))
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(68): ActionScheduler_Abstract_QueueRunner->schedule_next_instance(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(80): ActionScheduler_Abstract_QueueRunner->process_action('378')
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\wo in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2020-02-24T01:29:14+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:1044
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(290): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\wordpress\word in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1044
+
+2020-02-24T01:30:12+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:1044
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(290): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\wordpress\word in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1044
+
+2020-02-24T01:30:47+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:1044
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(290): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\wordpress\word in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1044
+
+2020-02-24T01:31:14+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, null given, called in C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php on line 290 and defined in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php:1044
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(290): Elementor\TemplateLibrary\Source_Local->on_save_post(0, NULL)
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-includes\post.php(4120): do_action('save_post', 0, NULL, false)
+#4 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php(52): wp_insert_post(Array)
+#5 C:\xampp\htdocs\wordpress\word in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 1044
+
+2020-02-24T01:33:16+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(82): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action), Object(ActionScheduler_DateTime))
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_Abstract_QueueRunner.php(68): ActionScheduler_Abstract_QueueRunner->schedule_next_instance(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_QueueRunner.php(80): ActionScheduler_Abstract_QueueRunner->process_action('378')
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\wo in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
+2020-02-24T01:39:18+00:00 CRITICAL Uncaught RuntimeException: Error saving action: Unable to save action. in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php:33
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(109): ActionScheduler_wpPostStore->save_action(Object(ActionScheduler_Action))
+#1 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_ActionFactory.php(78): ActionScheduler_ActionFactory->store(Object(ActionScheduler_Action))
+#2 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\functions.php(33): ActionScheduler_ActionFactory->recurring('wc_admin_unsnoo...', Array, 1582508358, 3600, 'wc-admin-notes')
+#3 C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\queue\class-wc-action-queue.php( in C:\xampp\htdocs\wordpress\wordpress\wp-content\plugins\woocommerce\includes\libraries\action-scheduler\classes\ActionScheduler_wpPostStore.php on line 33
+
